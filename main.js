@@ -65,7 +65,7 @@ while (selection !== 3) {
 
         console.log("*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*");
 
-        console.log("You have " + Number(toDoList.length) + " item(s) to do.");
+        console.log("You have " + Number(toDoList.length) + " item(s) in your to-do list.");
 
         for (let count = 0; count < toDoList.length; count++) {
             
@@ -80,6 +80,10 @@ while (selection !== 3) {
                 status[toDoList.length - 1] = "[complete]"
             }
 
+            
+
+            
+
 
             console.log(Number(count + 1) + "." + status[count] + toDoList[count]);
 
@@ -87,7 +91,7 @@ while (selection !== 3) {
             
             
         }
-        
+       
 
 
     } 
@@ -101,7 +105,7 @@ while (selection !== 3) {
 
         console.log("*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*");
 
-        console.log("You have " + Number(toDoList.length) + " item(s) to do.");
+        console.log("You have " + Number(toDoList.length) + " item(s) in your to-do list.");
 
 
 
@@ -126,9 +130,16 @@ while (selection !== 3) {
                 status[count] = "[complete]"
             }
 
+          
+
+            
+
             console.log(Number(count + 1) + "." + [status[count]] + toDoList[count]);
+
+            console.log("*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*");
             
         }
+        
     }
     if (selection === 3) {
 
