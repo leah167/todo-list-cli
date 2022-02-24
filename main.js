@@ -4,9 +4,9 @@ let toDoList = [];
 
 let completed = [];
 
-let toAdd = [];
+let toAdd = "";
 
-let toComplete = [];
+let toComplete = 0;
 
 let status = [];
 
