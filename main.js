@@ -69,15 +69,15 @@ while (selection !== 3) {
 
         for (let count = 0; count < toDoList.length; count++) {
             
-            completed[count] = false
+            completed[toDoList.length - 1] = false
 
-            if (completed[count] === false) {
+            if (completed[toDoList.length - 1] === false) {
 
-                status[count] = "[incomplete]"
+                status[toDoList.length - 1] = "[incomplete]"
 
-            } else if (completed[count] === true) {
+            } else if (completed[toDoList.length - 1] === true) {
                 
-                status[count] = "[complete]"
+                status[toDoList.length - 1] = "[complete]"
             }
 
 
